@@ -26,6 +26,13 @@ Este proyecto tiene como objetivo ejecutar pruebas de rendimiento utilizando **K
 ```bash
  choco install k6
 ```
+
+Para clonar este repositorio, utiliza el siguiente comando:
+
+```bash
+git clone https://github.com/tony83weber/challenge-performance-arw.git
+```
+
 ## Ejecución del Script de Pruebas
 
 Una vez que K6 esté instalado, puedes correr el script de rendimiento con el siguiente comando:
