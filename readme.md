@@ -17,6 +17,7 @@ Este proyecto tiene como objetivo ejecutar pruebas de rendimiento utilizando **K
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
    
 ```
+```
 
 ## Instalar K6:
 
@@ -25,7 +26,8 @@ Este proyecto tiene como objetivo ejecutar pruebas de rendimiento utilizando **K
 ```bash
  choco install k6
 ```
-Ejecución del Script de Pruebas
+## Ejecución del Script de Pruebas
+
 Una vez que K6 esté instalado, puedes correr el script de rendimiento con el siguiente comando:
 
 ```bash
